@@ -1,3 +1,8 @@
+
+# Find the return change after shopping
+# Input: cost in EUR, payed amount in EUR
+# Output: number of EUR cent coins per type [50, 10, 5, 2, 1]
+
 import numpy as np
 
 def define_coins_back(x):
