@@ -6,6 +6,7 @@ Current code examples:
 * image angle measure
 * Twan dice game (greedy player + sensible player)
 * List sorting bonanza (brute force + bubble + quick)
+* Binary search example
 * Simple webscraper
 * SP500 'going long' estimator with regular buy-ins
 * Fibonacci, prime numbers, FizzBuzz, cashier problem
