@@ -16,7 +16,7 @@ def binary_src(x, input_list, array_start=0):
             return array_start
         else:
             print(f'Looked for: {x} - No index found!\n')
-            return 
+            return
 
     if split_element == x:
         return array_start+split_index
@@ -26,7 +26,7 @@ def binary_src(x, input_list, array_start=0):
         return binary_src(x, input_list[split_index:], array_start + split_index)
 
 
-def quick_test_binary(n): # my cheap unit test :)
+def quick_test_binary(n):  # my cheap unit test :)
 
     array_min = 0
     array_max = 15
@@ -45,9 +45,8 @@ def quick_test_binary(n): # my cheap unit test :)
         index_is = binary_src(n_that_is_searched, array)
 
         if index_is != None:
-            print(f'Looked for: {n_that_is_searched}, found {array[index_is]} at position {index_is}\n')
-
-
+            print(
+                f'Looked for: {n_that_is_searched}, found {array[index_is]} at position {index_is}\n')
 
 
 if __name__ == '__main__':
@@ -55,4 +54,3 @@ if __name__ == '__main__':
     if True:
         print('Checking many ..')
         quick_test_binary(50)
-
