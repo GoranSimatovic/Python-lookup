@@ -21,5 +21,5 @@ for i in range(number_of_trials):
     elif car_id != player_first_choice:
         success_counter[1] += 1
 
-print('Swithching success rate:',success_counter[1]/number_of_trials)
-print('Not swithching success rate:',success_counter[0]/number_of_trials)
+print('Switching success rate:',success_counter[1]/number_of_trials)
+print('Not switching success rate:',success_counter[0]/number_of_trials)
