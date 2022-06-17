@@ -3,6 +3,11 @@
 Created on Sat May  1 10:18:59 2021
 
 @author: Goran
+
+Monty Hall simulator
+
+- sort script to check the success rate for different decisions/strategies :)
+
 """
 import numpy as np
 
