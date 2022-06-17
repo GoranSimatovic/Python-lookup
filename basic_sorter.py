@@ -1,3 +1,8 @@
+# Sorter algorithm types [brute_force O(n^2), native(timsort), bubble_sort, quick_sort] are defined and trialed.
+# A timer wraper keeps track of processing time. 
+# Useful to check performance for large and small lists as the ranking changes!
+# Have fun!
+
 import numpy as np
 import random
 import time
